@@ -81,10 +81,16 @@ a{
 
 /* Main section styling */
 .main-section{
-    margin:30px auto;
+    margin: auto;
+    margin-top: 40px;
     display: grid;
     place-items: center;
     padding: 40px;
+
+}
+.main-section h1{
+    font-weight: 100;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 
 }
 
@@ -118,11 +124,7 @@ a{
     padding: 30px;                  /* Add some breathing room for text */
 }
 
-.main-section h1{
-    font-weight: 100;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    padding:8px;
-}
+
 
 .container-gallery{
    max-width: 1400px;
@@ -149,4 +151,25 @@ a{
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding:8px;
     text-align: center;
+}
+.gallery-text{
+    font-weight: 100;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding:8px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.call-to-action{
+    display: grid;
+    max-width: 1400px;
+    place-items: center;
+    padding:0 8px;
+    
+}
+
+.call-to-action h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 100;
+
 }
